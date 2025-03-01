@@ -19,6 +19,11 @@
    ```
    This command will sync your Prisma schema with your database
    
+5. **Create and Apply Migrations**
+   ```bash
+   npx prisma migrate dev
+   ```
+   This command creates and applies database migrations based on schema changes
 4. **Studio**
    ```bash
    npx prisma studio
